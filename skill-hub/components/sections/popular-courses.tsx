@@ -1,6 +1,8 @@
+"use client"
+
 import Link from "next/link"
 import { Button } from "@/components/ui/button"
-import { CourseCard } from "@/components/course-card"
+import { CourseFlipCard } from "@/components/course-flip-card"
 import { courses } from "@/lib/courses-data"
 import { ArrowRight } from "lucide-react"
 
@@ -33,16 +35,7 @@ export function PopularCoursesSection() {
         {/* Courses Grid */}
         <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
           {popularCourses.map((course) => (
-            <CourseCard
-              key={course.id}
-              id={course.id}
-              title={course.title}
-              description={course.description}
-              duration={course.duration}
-              category={course.category}
-              image={course.image}
-              isAccredited={course.isAccredited}
-            />
+            <CourseFlipCard key={course.id} course={course} />
           ))}
         </div>
       </div>
