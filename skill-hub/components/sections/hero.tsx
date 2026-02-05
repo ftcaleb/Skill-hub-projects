@@ -16,21 +16,21 @@ const slides = [
     title: "Tailored Learning for Individuals & Companies",
     description:
       "Trajlon Group delivers accredited professional courses that empower individuals and organizations to reach their full potential. From leadership to AI, we have the training you need.",
-    image: "/placeholder.svg?height=1080&width=1920&text=Professional+Training",
+    image: "/images/bgimg2.jpeg",
   },
   {
     id: 2,
     title: "Transform Your Team With Expert Training",
     description:
       "Over 20 years of training excellence. Our certified instructors bring real-world experience to every session, ensuring practical skills your team can apply immediately.",
-    image: "/placeholder.svg?height=1080&width=1920&text=Team+Development",
+    image: "/images/bgimg3.jpeg",
   },
   {
     id: 3,
     title: "Accredited Programs for Career Growth",
     description:
       "Internationally recognized certifications that open doors. Join 10,000+ professionals who have advanced their careers through our comprehensive training programs.",
-    image: "/placeholder.svg?height=1080&width=1920&text=Career+Growth",
+    image: "/images/bgimg1.jpeg",
   },
 ]
 
@@ -183,11 +183,10 @@ export function HeroSection() {
                     setDirection(index > currentSlide ? 1 : -1)
                     setCurrentSlide(index)
                   }}
-                  className={`h-1.5 rounded-full transition-all duration-300 ${
-                    index === currentSlide
-                      ? "w-8 bg-white"
-                      : "w-4 bg-white/40 hover:bg-white/60"
-                  }`}
+                  className={`h-1.5 rounded-full transition-all duration-300 ${index === currentSlide
+                    ? "w-8 bg-white"
+                    : "w-4 bg-white/40 hover:bg-white/60"
+                    }`}
                   aria-label={`Go to slide ${index + 1}`}
                 />
               ))}
