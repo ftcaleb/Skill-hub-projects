@@ -54,7 +54,7 @@ export function CoursesContent() {
   const hasActiveFilters = searchQuery || selectedCategory !== "all" || accreditedOnly
 
   return (
-    <section className="py-12 lg:py-16 bg-background">
+    <section className="py-12 lg:py-16">
       <div className="mx-auto max-w-7xl px-4 lg:px-8">
         {/* Filters */}
         <div className="mb-10 space-y-6">

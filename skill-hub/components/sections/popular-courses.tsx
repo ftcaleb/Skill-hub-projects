@@ -11,13 +11,13 @@ export function PopularCoursesSection() {
   const popularCourses = courses.slice(0, 6)
 
   return (
-    <section className="py-20 lg:py-28 bg-secondary">
+    <section className="py-20 lg:py-28">
       <div className="mx-auto max-w-7xl px-4 lg:px-8">
         {/* Header */}
         <div className="flex flex-col sm:flex-row sm:items-end sm:justify-between gap-6 mb-12">
           <div>
             <span className="text-sm font-medium text-accent uppercase tracking-wider">Our Courses</span>
-            <h2 className="mt-3 text-3xl font-bold text-foreground sm:text-4xl text-balance">
+            <h2 className="mt-3 text-3xl font-bold text-accent sm:text-4xl text-balance">
               Popular Training Programs
             </h2>
             <p className="mt-4 max-w-2xl text-lg text-muted-foreground">

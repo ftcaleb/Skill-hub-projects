@@ -62,14 +62,14 @@ export function TestimonialsSection() {
   const [isPaused, setIsPaused] = useState(false)
 
   return (
-    <section className="py-20 lg:py-28 bg-primary overflow-hidden">
+    <section className="py-20 lg:py-28 overflow-hidden">
       <div className="mx-auto max-w-7xl px-4 lg:px-8 mb-12">
         {/* Header */}
         <div className="text-center">
-          <h2 className="text-3xl font-serif font-bold text-primary-foreground sm:text-4xl lg:text-5xl text-balance">
+          <h2 className="text-3xl font-serif font-bold text-accent sm:text-4xl lg:text-5xl text-balance">
             Reviews
           </h2>
-          <p className="mt-4 text-lg text-primary-foreground/60 max-w-2xl mx-auto">
+          <p className="mt-4 text-lg text-muted-foreground max-w-2xl mx-auto">
             Join thousands of professionals who have advanced their careers through our programs.
           </p>
         </div>
@@ -82,8 +82,8 @@ export function TestimonialsSection() {
         onMouseLeave={() => setIsPaused(false)}
       >
         {/* Gradient Fades */}
-        <div className="pointer-events-none absolute left-0 top-0 z-10 h-full w-24 bg-gradient-to-r from-primary to-transparent" />
-        <div className="pointer-events-none absolute right-0 top-0 z-10 h-full w-24 bg-gradient-to-l from-primary to-transparent" />
+        <div className="pointer-events-none absolute left-0 top-0 z-10 h-full w-24 bg-gradient-to-r from-gray-700 to-transparent" />
+        <div className="pointer-events-none absolute right-0 top-0 z-10 h-full w-24 bg-gradient-to-l from-gray-700 to-transparent" />
 
         <motion.div
           className="flex gap-6"
@@ -108,9 +108,9 @@ export function TestimonialsSection() {
                 transition: { duration: 0.3, ease: [0.4, 0, 0.2, 1] },
               }}
             >
-              <div className="rounded-2xl bg-primary-foreground/5 p-6 backdrop-blur-sm border border-primary-foreground/10 transition-shadow duration-300 group-hover:shadow-xl group-hover:shadow-primary-foreground/5">
+              <div className="rounded-2xl bg-card/90 backdrop-blur-sm p-6 border border-border transition-shadow duration-300 group-hover:shadow-xl group-hover:shadow-accent/10">
                 {/* Portrait */}
-                <div className="relative mx-auto mb-5 h-28 w-28 overflow-hidden rounded-full ring-2 ring-primary-foreground/20 group-hover:ring-primary-foreground/40 transition-all duration-300">
+                <div className="relative mx-auto mb-5 h-28 w-28 overflow-hidden rounded-full ring-2 ring-accent/20 group-hover:ring-accent/40 transition-all duration-300">
                   <Image
                     src={person.image || "/placeholder.svg"}
                     alt={person.name}
@@ -123,13 +123,13 @@ export function TestimonialsSection() {
 
                 {/* Info */}
                 <div className="text-center">
-                  <h3 className="font-semibold text-primary-foreground text-lg">
+                  <h3 className="font-semibold text-card-foreground text-lg">
                     {person.name}
                   </h3>
-                  <p className="mt-1 text-sm text-primary-foreground/50">
+                  <p className="mt-1 text-sm text-muted-foreground">
                     {person.role}
                   </p>
-                  <p className="text-sm text-primary-foreground/40">
+                  <p className="text-sm text-muted-foreground/70">
                     {person.company}
                   </p>
                 </div>

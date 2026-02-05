@@ -38,10 +38,10 @@ export function Header() {
       <nav className="mx-auto flex max-w-7xl items-center justify-between px-4 py-4 lg:px-8">
         {/* Logo */}
         <Link href="/" className="flex items-center gap-2">
-          <div className="flex h-10 w-10 items-center justify-center rounded-lg bg-primary">
-            <span className="text-lg font-bold text-primary-foreground">SH</span>
+          <div className="flex h-10 w-10 items-center justify-center rounded-lg bg-accent">
+            <span className="text-lg font-bold text-accent-foreground">SH</span>
           </div>
-          <span className="text-xl font-bold text-foreground">SkillHub</span>
+          <span className="text-xl font-bold text-accent">SkillHub</span>
         </Link>
 
         {/* Desktop Navigation */}
@@ -49,7 +49,7 @@ export function Header() {
           {navItems.map((item) =>
             item.hasDropdown ? (
               <DropdownMenu key={item.name}>
-                <DropdownMenuTrigger className="flex items-center gap-1 text-sm font-medium text-muted-foreground transition-colors hover:text-foreground">
+                <DropdownMenuTrigger className="flex items-center gap-1 text-sm font-medium text-muted-foreground transition-colors hover:text-accent">
                   {item.name}
                   <ChevronDown className="h-4 w-4" />
                 </DropdownMenuTrigger>
@@ -73,7 +73,7 @@ export function Header() {
               <Link
                 key={item.name}
                 href={item.href}
-                className="text-sm font-medium text-muted-foreground transition-colors hover:text-foreground"
+                className="text-sm font-medium text-muted-foreground transition-colors hover:text-accent"
               >
                 {item.name}
               </Link>

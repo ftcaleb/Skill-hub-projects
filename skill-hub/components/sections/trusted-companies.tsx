@@ -20,10 +20,10 @@ export function TrustedCompaniesSection() {
   const duplicatedCompanies = [...companies, ...companies]
 
   return (
-    <section className="w-full bg-primary py-16 md:py-20 overflow-hidden">
+    <section className="w-full py-16 md:py-20 overflow-hidden">
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         {/* Heading */}
-        <h2 className="text-center text-lg md:text-xl font-medium text-primary-foreground/70 mb-12 tracking-wide">
+        <h2 className="text-center text-lg md:text-xl font-medium text-accent mb-12 tracking-wide">
           Our Accreditations and Affiliations
         </h2>
       </div>
@@ -31,10 +31,10 @@ export function TrustedCompaniesSection() {
       {/* Logo Carousel Container */}
       <div className="relative">
         {/* Left gradient fade */}
-        <div className="absolute left-0 top-0 bottom-0 w-32 md:w-48 bg-gradient-to-r from-primary to-transparent z-10 pointer-events-none" />
-        
+        <div className="absolute left-0 top-0 bottom-0 w-32 md:w-48 bg-gradient-to-r from-gray-700 to-transparent z-10 pointer-events-none" />
+
         {/* Right gradient fade */}
-        <div className="absolute right-0 top-0 bottom-0 w-32 md:w-48 bg-gradient-to-l from-primary to-transparent z-10 pointer-events-none" />
+        <div className="absolute right-0 top-0 bottom-0 w-32 md:w-48 bg-gradient-to-l from-gray-700 to-transparent z-10 pointer-events-none" />
 
         {/* Animated carousel wrapper */}
         <motion.div

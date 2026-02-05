@@ -35,12 +35,12 @@ const features = [
 
 export function WhyTrajlonSection() {
   return (
-    <section className="py-20 lg:py-28 bg-background">
+    <section className="py-20 lg:py-28">
       <div className="mx-auto max-w-7xl px-4 lg:px-8">
         {/* Header */}
         <div className="mx-auto max-w-3xl text-center mb-16">
           <span className="text-sm font-medium text-accent uppercase tracking-wider">Why Choose Us</span>
-          <h2 className="mt-3 text-3xl font-bold text-foreground sm:text-4xl text-balance">
+          <h2 className="mt-3 text-3xl font-bold text-accent sm:text-4xl text-balance">
             SkillHub International: Your Partner in Professional Growth
           </h2>
           <p className="mt-4 text-lg text-muted-foreground text-pretty">

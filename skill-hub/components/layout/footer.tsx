@@ -40,7 +40,7 @@ export function Footer() {
               <span className="text-xl font-bold">Trajlon Group</span>
             </div>
             <p className="text-sm text-primary-foreground/80 leading-relaxed">
-              Empowering professionals and organizations with world-class training solutions for over 20 years. 
+              Empowering professionals and organizations with world-class training solutions for over 20 years.
               We deliver accredited courses that transform careers and businesses.
             </p>
             {/* Social Links */}
@@ -60,13 +60,13 @@ export function Footer() {
 
           {/* Quick Links */}
           <div>
-            <h3 className="mb-6 text-lg font-semibold">Quick Links</h3>
+            <h3 className="mb-6 text-lg font-semibold text-accent">Quick Links</h3>
             <ul className="space-y-3">
               {quickLinks.map((link) => (
                 <li key={link.name}>
                   <Link
                     href={link.href}
-                    className="text-sm text-primary-foreground/80 transition-colors hover:text-primary-foreground"
+                    className="text-sm text-primary-foreground/80 transition-colors hover:text-accent"
                   >
                     {link.name}
                   </Link>
@@ -77,13 +77,13 @@ export function Footer() {
 
           {/* Course Categories */}
           <div>
-            <h3 className="mb-6 text-lg font-semibold">Popular Courses</h3>
+            <h3 className="mb-6 text-lg font-semibold text-accent">Popular Courses</h3>
             <ul className="space-y-3">
               {courseCategories.map((category) => (
                 <li key={category.name}>
                   <Link
                     href={category.href}
-                    className="text-sm text-primary-foreground/80 transition-colors hover:text-primary-foreground"
+                    className="text-sm text-primary-foreground/80 transition-colors hover:text-accent"
                   >
                     {category.name}
                   </Link>
@@ -94,7 +94,7 @@ export function Footer() {
 
           {/* Contact Info */}
           <div>
-            <h3 className="mb-6 text-lg font-semibold">Contact Us</h3>
+            <h3 className="mb-6 text-lg font-semibold text-accent">Contact Us</h3>
             <ul className="space-y-4">
               <li className="flex items-start gap-3">
                 <MapPin className="mt-0.5 h-5 w-5 shrink-0 text-primary-foreground/80" />
@@ -130,7 +130,7 @@ export function Footer() {
               {new Date().getFullYear()} Trajlon Group. All rights reserved.
             </p>
             <div className="flex gap-6">
-              <Link href="#" className="text-sm text-primary-foreground/60 hover:text-primary-foreground">
+              <Link href="#" className="text-sm text-primary-foreground/60 hover:text-accent">
                 Privacy Policy
               </Link>
               <Link href="#" className="text-sm text-primary-foreground/60 hover:text-primary-foreground">

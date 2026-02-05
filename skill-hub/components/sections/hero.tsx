@@ -167,7 +167,7 @@ export function HeroSection() {
                 size="lg"
                 variant="secondary"
                 asChild
-                className="font-semibold"
+                className="font-semibold hover:bg-accent/90"
               >
                 <Link href="/contact">Get a Quote</Link>
               </Button>
