@@ -21,7 +21,7 @@ export function BenefitsSection() {
           <div className="relative">
             <div className="relative aspect-[4/3] overflow-hidden rounded-2xl">
               <Image
-                src="/placeholder.svg?height=600&width=800"
+                src="/images/Listen.jpeg"
                 alt="Professional training session"
                 fill
                 className="object-cover"
@@ -41,8 +41,8 @@ export function BenefitsSection() {
               Why Organizations Choose Us for Training
             </h2>
             <p className="mt-4 text-lg text-muted-foreground leading-relaxed">
-              We don't just deliver training – we create transformative learning experiences that drive real 
-              business results. Our comprehensive approach ensures your investment in professional development 
+              We don't just deliver training – we create transformative learning experiences that drive real
+              business results. Our comprehensive approach ensures your investment in professional development
               delivers measurable ROI.
             </p>
 
