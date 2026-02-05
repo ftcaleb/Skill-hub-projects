@@ -9,49 +9,49 @@ const alumni = [
     name: "Sarah Molefe",
     role: "Operations Director",
     company: "Goldfields Mining Corp",
-    image: "/placeholder.svg?height=200&width=200",
+    image: "/images/Listen.jpeg",
   },
   {
     name: "David Nkosi",
     role: "HR Business Partner",
     company: "Standard Bank",
-    image: "/placeholder.svg?height=200&width=200",
+    image: "/images/review1.jpeg",
   },
   {
     name: "Michelle van der Berg",
     role: "Chief Technology Officer",
     company: "TechStart Solutions",
-    image: "/placeholder.svg?height=200&width=200",
+    image: "/images/review2.jpeg",
   },
   {
     name: "Thabo Mbeki",
     role: "Senior Project Manager",
     company: "Sasol Energy",
-    image: "/placeholder.svg?height=200&width=200",
+    image: "/images/review3.jpeg",
   },
   {
     name: "Priya Naidoo",
     role: "Finance Director",
     company: "Discovery Limited",
-    image: "/placeholder.svg?height=200&width=200",
+    image: "/images/review4.jpeg",
   },
   {
     name: "James Okonkwo",
     role: "Supply Chain Lead",
     company: "Shoprite Holdings",
-    image: "/placeholder.svg?height=200&width=200",
+    image: "/images/review5.jpeg",
   },
   {
     name: "Amahle Dlamini",
     role: "Learning & Development Head",
     company: "MTN Group",
-    image: "/placeholder.svg?height=200&width=200",
+    image: "/images/review7.jpeg",
   },
   {
     name: "Johan Pretorius",
     role: "Managing Director",
     company: "Woolworths SA",
-    image: "/placeholder.svg?height=200&width=200",
+    image: "/images/review8.jpeg",
   },
 ]
 
@@ -67,7 +67,7 @@ export function TestimonialsSection() {
         {/* Header */}
         <div className="text-center">
           <h2 className="text-3xl font-serif font-bold text-primary-foreground sm:text-4xl lg:text-5xl text-balance">
-            Alumni Success Stories
+            Reviews
           </h2>
           <p className="mt-4 text-lg text-primary-foreground/60 max-w-2xl mx-auto">
             Join thousands of professionals who have advanced their careers through our programs.

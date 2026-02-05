@@ -36,14 +36,12 @@ export function BenefitsSection() {
 
           {/* Content */}
           <div>
-            <span className="text-sm font-medium text-accent uppercase tracking-wider">The Trajlon Advantage</span>
+            <span className="text-sm font-medium text-accent uppercase tracking-wider">The SkillHub International Advantage</span>
             <h2 className="mt-3 text-3xl font-bold text-foreground sm:text-4xl text-balance">
-              Why Organizations Choose Us for Training
+              SkillHub International – Your Stage for Business Excellence
             </h2>
             <p className="mt-4 text-lg text-muted-foreground leading-relaxed">
-              We don't just deliver training – we create transformative learning experiences that drive real
-              business results. Our comprehensive approach ensures your investment in professional development
-              delivers measurable ROI.
+              SkillHub International provides high-impact, practical training and certifications for professionals and organisations worldwide across diverse business functions. Their programmes, delivered online or in-person, are tailored to boost skills, drive growth, and create measurable real-world impact.
             </p>
 
             {/* Benefits List */}

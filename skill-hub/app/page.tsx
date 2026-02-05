@@ -5,7 +5,6 @@ import { TrustedCompaniesSection } from "@/components/sections/trusted-companies
 import { WhyTrajlonSection } from "@/components/sections/why-trajlon"
 import { PopularCoursesSection } from "@/components/sections/popular-courses"
 import { BenefitsSection } from "@/components/sections/benefits"
-import { CredibilityShowcaseSection } from "@/components/sections/credibility-showcase"
 import { TestimonialsSection } from "@/components/sections/testimonials"
 import { CTASection } from "@/components/sections/cta"
 
@@ -17,9 +16,9 @@ export default function HomePage() {
         <HeroSection />
         <WhyTrajlonSection />
         <PopularCoursesSection />
-        <BenefitsSection />
         <TrustedCompaniesSection />
-        <CredibilityShowcaseSection />
+        <BenefitsSection />
+
         <TestimonialsSection />
         <CTASection />
       </main>

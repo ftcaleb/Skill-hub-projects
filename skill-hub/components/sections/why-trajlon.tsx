@@ -41,10 +41,10 @@ export function WhyTrajlonSection() {
         <div className="mx-auto max-w-3xl text-center mb-16">
           <span className="text-sm font-medium text-accent uppercase tracking-wider">Why Choose Us</span>
           <h2 className="mt-3 text-3xl font-bold text-foreground sm:text-4xl text-balance">
-            Trajlon Group: Your Partner in Professional Growth
+            SkillHub International: Your Partner in Professional Growth
           </h2>
           <p className="mt-4 text-lg text-muted-foreground text-pretty">
-            For over 20 years, we've been helping professionals and organizations achieve excellence through 
+            For over 20 years, we've been helping professionals and organizations achieve excellence through
             world-class training programs.
           </p>
         </div>
