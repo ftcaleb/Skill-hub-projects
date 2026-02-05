@@ -25,7 +25,6 @@ const courseCategories = [
 const navItems = [
   { name: "Home", href: "/" },
   { name: "All Courses", href: "/courses", hasDropdown: true },
-  { name: "Accredited Courses", href: "/courses?accredited=true" },
   { name: "About", href: "/about" },
   { name: "Events", href: "/events" },
   { name: "Contact", href: "/contact" },
@@ -40,9 +39,9 @@ export function Header() {
         {/* Logo */}
         <Link href="/" className="flex items-center gap-2">
           <div className="flex h-10 w-10 items-center justify-center rounded-lg bg-primary">
-            <span className="text-lg font-bold text-primary-foreground">TG</span>
+            <span className="text-lg font-bold text-primary-foreground">SH</span>
           </div>
-          <span className="text-xl font-bold text-foreground">Trajlon Group</span>
+          <span className="text-xl font-bold text-foreground">SkillHub</span>
         </Link>
 
         {/* Desktop Navigation */}
@@ -85,7 +84,7 @@ export function Header() {
         {/* CTA Button */}
         <div className="hidden lg:flex lg:items-center lg:gap-4">
           <Button asChild>
-            <Link href="/contact">Get a Quote</Link>
+            <Link href="/contact">Contact Us</Link>
           </Button>
         </div>
 
